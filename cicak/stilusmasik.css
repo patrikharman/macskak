@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.tartalom ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 250px 250px ;
+    gap: 10px;
+}	
+.tartalom ul li{
+    padding: 10px;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tartalom ul a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.tartalom ul a:hover{
+    color: brown;
+}
